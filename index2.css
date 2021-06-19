@@ -1,0 +1,23 @@
+/* designing the body part of the page */
+
+body {
+  background: linear-gradient(
+    rgb(233, 229, 21),
+    rgb(128, 216, 231),
+    rgb(118, 230, 118),
+    rgb(235, 167, 112)
+  );
+  background-repeat: repeat;
+}
+
+/* designing the class heading part of the page */
+
+.Heading {
+  font-size: 110px;
+  color: rgb(221, 103, 148);
+  font-weight: bold;
+  font-style: normal;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 190px 25px 190px 25px;
+  text-align: center;
+}

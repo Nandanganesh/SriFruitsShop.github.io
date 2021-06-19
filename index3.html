@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Imaginary Fruit Shop</title>   <!-- title of this page-->
+    
+    <!--linking the css stylesheet to this html page-->
+    <link rel="stylesheet" href="index3.css" />
+  </head>
+  <body>
+    <form action="/index2.html" target="_self">     <!--creating a form for selected product-->
+      <label for="name"> Name:</label>
+      <input type="text" id="name" name="name" max="50" min="1" /><br />    <!--tellin others to input thier name-->
+
+      <label for="num"> Phone-Number:</label>
+      <input type="tel" id="num" name="num" max="11" min="1" /><br />    <!--tellin others to input thier phone number-->
+
+      <label for="mail">E-mail Address:</label>
+      <input type="email" id="mail" name="mail" max="50" min="5"><br>     <!--tellin others to input thier email address-->
+
+      <label for="number">Quantity Of The Product Chosen:</label>
+      <input type="number" id="num" name="num" max="5.1" min="0" /><br />     <!--telling others to input the quantity for the selected item-->
+
+      <label for="add">Product Delivery Address:</label>     <!--tellin others to add thier home address to send the chosen product-->
+      <input type="paragraph" id="add" name="add" max="500" min="10"><br />
+
+      <label for="pin">City Pincode:</label>    <!--tellin others to input thier city pincode-->
+      <input type="tel" id="pin" name="pin" max="8" min="1" /><br />
+
+      <input type="submit" id="submit" name="submit" />      <!--tellin others to input the submit button-->
+      <script src="index3.js"></script>
+    </form>
+    <footer>All information should be filled</footer>     <!--showing this message on the wbsite footer-->
+    <script src="index3.js"></script>        <!--linking the javascrit file to thin html page-->
+  </body>
+</html>

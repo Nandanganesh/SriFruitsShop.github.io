@@ -1,0 +1,60 @@
+/* designing the body part of the page */
+
+body {
+  background: linear-gradient(
+    rgb(233, 229, 21),
+    rgb(128, 216, 231),
+    rgb(118, 230, 118),
+    rgb(235, 167, 112)
+  );
+  background-repeat: repeat;
+}
+
+/* designing the first heading part of the page */
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  color: rgba(11, 189, 212, 0.849);
+  font-family: 'Times New Roman', Times, serif;
+  font-style: normal;
+  font-size: 100px;
+  text-decoration: underline;
+}
+
+/* designing the second heading part of the page */
+
+h2 {
+  font-weight: bold;
+  text-align: center;
+  color: rgba(213, 19, 231, 0.589);
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 75px;
+  text-decoration: none;
+}
+
+/* designing the table, table heading and table part details of the page */
+
+table,
+th,
+td {
+  border: 2.5px solid rgb(0, 47, 255);
+  border-collapse: collapse;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(120, 68, 204);
+  padding: 10px;
+  margin: 20px;
+}
+
+/* designing the image part of the page */
+
+img {
+  width: 250px;
+  border-radius: 10px;
+  height: fit-content;
+  margin: auto;
+}
